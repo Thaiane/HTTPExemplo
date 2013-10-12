@@ -32,13 +32,15 @@ public final class R {
         public static final int stats=0x7f020008;
     }
     public static final class id {
-        public static final int action_settings=0x7f090001;
-        public static final int button1=0x7f090000;
+        public static final int action_settings=0x7f090002;
+        public static final int button1=0x7f090001;
+        public static final int button2=0x7f090000;
     }
     public static final class layout {
         public static final int gui_main=0x7f030000;
         public static final int gui_parlamentar=0x7f030001;
-        public static final int splash_screen=0x7f030002;
+        public static final int gui_sobre=0x7f030002;
+        public static final int splash_screen=0x7f030003;
     }
     public static final class menu {
         public static final int splash_screen=0x7f080000;
