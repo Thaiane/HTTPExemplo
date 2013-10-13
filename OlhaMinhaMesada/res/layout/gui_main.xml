@@ -6,20 +6,20 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="53dp"
-        android:layout_height="53dp"
+        android:layout_width="52dp"
+        android:layout_height="48dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginRight="12dp"
+        android:layout_marginRight="12.3dp"
         android:layout_toLeftOf="@+id/button1"
         android:background="@drawable/sobre" />
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="53dp"
-        android:layout_height="53dp"
+        android:layout_width="52dp"
+        android:layout_height="48dp"
         android:layout_above="@+id/button2"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="41.5dp"
         android:layout_marginRight="56dp"
         android:background="@drawable/politico" />
 

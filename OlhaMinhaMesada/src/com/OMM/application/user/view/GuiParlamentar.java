@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 
 public class GuiParlamentar extends Activity {
@@ -14,6 +15,8 @@ public class GuiParlamentar extends Activity {
 		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.gui_parlamentar);
+		
+		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		
 		Button btn = (Button)findViewById(R.id.button1);
 		final MediaPlayer mp = MediaPlayer.create(this, R.raw.click);
