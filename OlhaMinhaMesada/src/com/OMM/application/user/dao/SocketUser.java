@@ -19,13 +19,17 @@ public class SocketUser {
 		
 		try {
 			
-			socketUsuario = new Socket( "192.168.1.11", 5000 );
+			socketUsuario = new Socket( "192.168.1.12", 5000 );
 			saida		  = new PrintWriter( socketUsuario.getOutputStream( ) );
 			entrada		  = new Scanner( socketUsuario.getInputStream( ) );
 			
 		} catch( Exception e ) {
 			
 		}
+	}
+	
+	public void testeeee(){
+		System.out.println("Olá socket!!!");
 	}
 	
 	public Scanner getEntrada() {

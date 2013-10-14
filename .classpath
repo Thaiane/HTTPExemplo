@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="OlhaMinhaMesada/gen"/>
+	<classpathentry kind="src" path="OlhaMinhaMesada/src"/>
+	<classpathentry kind="lib" path="OlhaMinhaMesada/bin/dexedLibs/android-support-v4-112e913995dc61b313020ae6d359d37d.jar"/>
+	<classpathentry kind="lib" path="OlhaMinhaMesada/libs/android-support-v4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="OlhaMinhaMesada/bin/classes"/>
+</classpath>
