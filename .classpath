@@ -5,5 +5,13 @@
 	<classpathentry kind="lib" path="OlhaMinhaMesada/bin/dexedLibs/android-support-v4-112e913995dc61b313020ae6d359d37d.jar"/>
 	<classpathentry kind="lib" path="OlhaMinhaMesada/libs/android-support-v4.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Proprietário/Desktop/adt-bundle-windows-x86-20130917/sdk/platforms/android-18/android.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/Proprietário/Desktop/adt-bundle-windows-x86-20130917/sdk/docs/reference"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="nonaccessible" pattern="com/android/internal/**"/>
+		</accessrules>
+	</classpathentry>
 	<classpathentry kind="output" path="OlhaMinhaMesada/bin/classes"/>
 </classpath>
